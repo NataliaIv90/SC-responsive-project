@@ -123,3 +123,17 @@ p {
     font-size: 18px;
   }
 }
+
+.footer a {
+  color: var(--main-color);
+  font-size: 24px;
+}
+
+.footer-social-media a {
+  background-color: rgba(33, 37, 41, 0.1);
+  color: var(--main-color);
+  padding: 10px 14px;
+  border-radius: 90px;
+  font-size: 18px;
+  opacity: 0.9;
+}
