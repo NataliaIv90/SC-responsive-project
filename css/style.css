@@ -217,7 +217,7 @@ p {
   }
 
   .main-part {
-    padding: 40px;
+    padding: 10px 5px;
   }
 
   .main-part h1 {
@@ -232,6 +232,7 @@ p {
   }
 
   .contact-section {
+    padding: 20px 0;
     max-width: 90%;
   }
 
