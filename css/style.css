@@ -116,8 +116,12 @@ p {
   text-decoration: none;
 }
 
+.about-section-content {
+  padding: 30px;
+}
+
 .main-part {
-  padding: 90px;
+  padding: 90px 50px;
   background-color: white;
 }
 
@@ -229,5 +233,9 @@ p {
 
   .contact-section {
     max-width: 90%;
+  }
+
+  .contact-section h2 {
+    font-size: 28px;
   }
 }
