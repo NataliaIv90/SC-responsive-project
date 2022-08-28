@@ -107,22 +107,24 @@ footer .footer-mail-link a {
   font-size: 24px;
 }
 
-footer .footer-social-media a {
-  color: var(--main-color);
-  padding: 10px 14px;
-  border-radius: 90px;
-  font-size: 18px;
-  opacity: 0.9;
-  background-color: var(--brand-color);
-}
-
-footer a:hover {
+footer .footer-mail-link a:hover {
   color: var(--brand-color);
   text-decoration: none;
 }
 
-footer .footer-social-media a:hover {
+footer .footer-social-media a {
   background-color: var(--main-color);
+  padding: 10px 14px;
+  border-radius: 90px;
+  font-size: 18px;
+  opacity: 0.9;
+  color: var(--brand-color);
+}
+
+footer .footer-social-media a:hover {
+  color: var(--main-color);
+  background-color: var(--brand-color);
+  text-decoration: none;
 }
 
 .about-section-content {
