@@ -61,19 +61,23 @@ h1 {
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px 46px;
+  padding: 15px 25px;
   border-radius: 4px;
 }
 
 .btn-branded-outline {
   color: var(--brand-color);
-  color: var(--brand-color);
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px 46px;
+  padding: 15px 25px;
   border: 1px solid var(--brand-color);
   border-radius: 4px;
+}
+
+.btn-branded-outline:hover {
+  color: var(--brand-color);
+  background-color: var(--main-color);
 }
 
 .project-description {
@@ -233,6 +237,12 @@ footer .footer-social-media a:hover {
   p {
     text-align: center;
     font-size: 18px;
+  }
+
+  .button-container .btn-branded-outline,
+  .button-container .btn-branded {
+    font-size: 16px;
+    padding: 10px 18px;
   }
 
   .main-part {
