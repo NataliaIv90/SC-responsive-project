@@ -98,6 +98,14 @@ p {
   border-radius: 20px;
 }
 
+.filter-image {
+  filter: grayscale(90%);
+}
+
+.filter-image:hover {
+  filter: none;
+}
+
 footer .footer-mail-link {
   margin: 60px 0;
 }
@@ -137,7 +145,7 @@ footer .footer-social-media a:hover {
 }
 
 .main-part h1 {
-  font-size: 64px;
+  font-size: 48px;
   line-height: 1.2;
   font-family: var(--heading-font);
   color: var(--main-color-transparrent);
@@ -243,7 +251,11 @@ footer .footer-social-media a:hover {
     font-size: 18px;
   }
 
-  .footer {
+  .about-image {
+    margin: 0 auto;
+  }
+
+  footer {
     padding: 0px;
   }
 
